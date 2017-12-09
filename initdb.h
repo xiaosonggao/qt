@@ -32,7 +32,8 @@ QSqlError initdb(QSqlDatabase db){
                              "yd_xuefen, double)")));
         return q.lastError();
 
-
+	QsqlQuery q;
+	q.exec();
 }
 
 
